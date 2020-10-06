@@ -3,24 +3,37 @@
   <head>
     <meta charset="utf-8">
     <title>Brian Jameson - Contact</title>
+    <style>
+      body {
+        background-color: powderblue;
+      }
+
+      hr {
+        background-color: white;
+        border-style: none;
+        height: 2px;
+      }
+    </style>
   </head>
   <body>
     <h1>My Contact Details</h1>
-    <p>12 Greenvale Farms Road, Poughkeepsie, NY 12603</p>
+    <p>Brian Jameson<br />12 Greenvale Farms Road<br />Poughkeepsie, NY 12603</p>
     <p>845-820-6491</p>
-    <p>brianjameson42@gmail.com</p>
+    <p><a href="mailto:brianjameson42@gmail.com?subject=Git%20Contact%20Page">brianjameson42@gmail.com</a></p>
     <hr>
-    <form action="mailto:brianjameson42@gmail.com" method="post" enctype="text/plain">
+    <form action="mailto:brianjameson42@gmail.com?subject=Git%20Contact%20Form" method="post" enctype="text/plain">
       <label>Your Name:</label>
-      <input type="text" name="yourName" id="">
+      <input type="text" name="Name" id="">
       <br>
       <label>Your Email:</label>
-      <input type="email" name="yourEmail" id="">
+      <input type="email" name="Email" id="">
       <br>
       <label>Your Message:</label><br>
-      <textarea name="yourMessage" rows="10" cols="30"></textarea>
+      <textarea name="Message" rows="10" cols="30"></textarea>
       <br>
       <input type="submit" name="" id="">
     </form>
+    <hr>
+    <a href="index.html">Back To CV</a>
   </body>
 </html>
